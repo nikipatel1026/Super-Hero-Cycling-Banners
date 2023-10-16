@@ -1,0 +1,23 @@
+#banner-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner-images {
+    width: 600px; /* Set the width of the banner */
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.banner-image {
+    width: 600px; /* Set the width of individual images */
+    height: 300px; /* Set the height of individual images */
+}
+
+.banner-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
